@@ -19,9 +19,9 @@ const Contact = () => {
           Contact
         </h2>
         <div>
-          <h4 className="mt-12 text-3xl font-semibold text-blue-500">
+          {/* <h4 className="mt-12 text-3xl font-semibold text-blue-500">
             Connect with me
-          </h4>
+          </h4> */}
           {/* <p className="text-gray-500 text-xl">
             If you want to know more about me or my work, or if you would just
             <br />
@@ -99,31 +99,49 @@ const Contact = () => {
               </div>
             </form> */}
           </div>
-          <div className="w-full  md:items-center  mt-12 md:mt-6">
+          <div className="w-full md:items-center  mt-10 md:mt-6">
+            <div className="w-full flex justify-between md:items-center  mt-12 md:mt-6" >
+              <div>
+              <h1 className="text-3xl font-bold">Phone</h1>
+            <a
+              href="hello"
+              className="mb-4 mt-6 font-semibold text-blue-700 "
+            >
+              +91 9652883841
+            </a>
+              </div>
             {/* <h1 className="text-3xl font-bold">Phone</h1>
             <a
               href="hello"
-              className="mb-12 mt-4 font-semibold text-blue-700 block uppercase"
+              className="mb-4 mt-6 font-semibold text-blue-700 block uppercase"
             >
-              +91 8285631499
+              +91 9652883841
             </a> */}
-            {/* <h1 className="text-3xl font-bold">Email</h1> */}
-            {/* <a
+            <div>
+            <h1 className="text-3xl font-bold">Email</h1>
+            <a
               href="hello"
-              className="mb-12 mt-4 font-semibold text-blue-700 block uppercase"
+              className="mb-12 mt-4 font-semibold text-blue-700 "
             >
               sandhyapyla.8@gmail.com
-            </a> */}
-            {/* <h1 className="text-3xl  font-bold">Address</h1> */}
-            {/* <a
+            </a>
+            </div>
+           
+           <div>
+              <h1 className="text-3xl  font-bold">Address</h1>
+            <a
               href="hello"
-              className="mt-4  mb-12 md:text-right font-semibold text-blue-700 block uppercase"
+              className="mt-4  mb-12 md:text-left font-semibold text-blue-700 "
             >
               Vishakaptanam, Andhra Pradesh
               <br />
               India
-            </a> */}
-            {/* <h1 className="text-3xl  font-bold">Social</h1> */}
+            </a>
+           </div>
+           
+            </div>
+          
+            <h1 className="text-3xl  font-bold">Social</h1>
             <ul className="flex">
               {contactLinks.map((el) => (
                 <a
