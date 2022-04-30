@@ -100,7 +100,7 @@ const Contact = () => {
             </form> */}
           </div>
           <div className="w-full md:items-center  mt-10 md:mt-6">
-            <div className="w-full flex justify-between md:items-center  mt-12 md:mt-6" >
+            <div className="w-full flex justify-around md:items-center  mt-12 md:mt-6" >
               <div>
               <h1 className="text-3xl font-bold">Phone</h1>
             <a
@@ -141,8 +141,9 @@ const Contact = () => {
            
             </div>
           
-            <h1 className="text-3xl  font-bold">Social</h1>
-            <ul className="flex">
+            {/* <h1 className="text-3xl  font-bold">Social</h1> */}
+            <h1 className="text-3xl font-bold px-4 md:px-0 text-center z-0">Social</h1>
+            <ul className=" flex justify-around md:items-center">
               {contactLinks.map((el) => (
                 <a
                   href={el.link}

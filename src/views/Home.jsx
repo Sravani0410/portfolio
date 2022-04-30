@@ -68,6 +68,9 @@ const Home = () => {
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
               <div className="mt-3 sm:mt-0 cursor-pointer w-1/2">
                 {/* <Link to="../assets/resume.pdf" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-200 md:py-4 md:text-lg md:px-10" > */}
+                {/* <button  onClick={()=>{
+                 window.location.href="https://drive.google.com/file/d/1ZH2y4rYnKED4YoXxSVzaQWjWkMi75Uxt/view?usp=sharing"
+                }}  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-200 md:py-4 md:text-lg md:px-10">Resume</button>  */}
                  <a href="https://drive.google.com/file/d/1ZH2y4rYnKED4YoXxSVzaQWjWkMi75Uxt/view?usp=sharing"  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-200 md:py-4 md:text-lg md:px-10">Resume</a> 
                 {/* </Link> */}
                 {/* <Button className="bg-custom-blue font-weight-bold shadow-sm border-0 resume-btn" onClick={() => window.open('/static/Bipin_mv_resume.pdf', '_blank')}>View Resume
@@ -75,7 +78,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          {/* <motion.img
+          <motion.img
             initial="hidden"
             whileInView={"visible"}
             variants={{
@@ -88,14 +91,14 @@ const Home = () => {
               },
               hidden: { opacity: 1, y: 80 },
             }}
-            src={heroBg}
+            src="https://www.linkpicture.com/q/My-project_5.png"
             alt=""
             className="md:w-3/6 hidden sm:block"
-          /> */}
-         <a href="https://www.linkpicture.com/view.php?img=LPic626cdc7b7444a1918540389">
-           <img className="md:w-3/6 hidden sm:block " src="https://www.linkpicture.com/q/profile_pic.jpeg" type="image"/>
-
-           </a>
+          />
+         {/* <a href="https://www.linkpicture.com/view.php?img=LPic626cdc7b7444a1918540389">
+           <img className="md:w-3/6 hidden sm:block " src="https://www.linkpicture.com/q/profile_pic.jpeg" type="image"/> </a> */}
+           {/* <a href="https://www.linkpicture.com/view.php?img=LPic626d07f439bfb143666443">
+             <img className="md:w-4/8 hidden sm:block" src="https://www.linkpicture.com/q/My-project_5.png" type="image"/></a> */}
         </main>
       </div>
     </>
