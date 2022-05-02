@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const Card1 = () => {
+const Card3 = () => {
   return (
     <motion.div
       initial={"hidden"}
@@ -15,22 +15,22 @@ const Card1 = () => {
       <a href="hello">
         <img
           class="rounded-t-lg w-full"
-          src="https://www.linkpicture.com/q/bebody-wise.jpeg"
+          src="https://www.linkpicture.com/q/translate_1.png"
           alt=""
         />
       </a>
       <div class="p-5">
         <a href="">
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-           Be Body Wise
+         Translate Clone
           </h5>
         </a>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
          
-         Be Body wise is a e-commerce website for health products.
+        This clone is translate from any language
         </p>
         <a
-          href="https://github.com/Sravani0410/bebodywise-clone"
+          href="https://github.com/Sravani0410/translate-app"
           class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300"
         >
          Source Code
@@ -49,7 +49,7 @@ const Card1 = () => {
         </a>
         <div class="mt-2">
         <a
-          href="https://bebodywise-clone-black.vercel.app/"
+          href="https://translate-orpin.vercel.app/"
           class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300"
         >
          View
@@ -72,4 +72,4 @@ const Card1 = () => {
   );
 };
 
-export default Card1;
+export default Card3;

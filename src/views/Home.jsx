@@ -96,9 +96,9 @@ const Home = () => {
             className="md:w-3/6 hidden sm:block"
           /> */}
           {/* <a href="https://www.linkpicture.com/view.php?img=LPic626d139e1d4691066984160"><img className="md:w-4/6 hidden sm:block" src="https://www.linkpicture.com/q/My-project_4.jpg" type="image"/></a> */}
-         {/* <a className="md:w-3/6 hidden sm:block" href="https://www.linkpicture.com/view.php?img=LPic626d1054bd3081267736362"><img className="md:w-4/8 hidden sm:block" src="https://www.linkpicture.com/q/My-project-1_1.png" type="image"/></a> */}
-           <a href="https://www.linkpicture.com/view.php?img=LPic626d07f439bfb143666443">
-             <img className="md:w-4/8 hidden sm:block" src="https://www.linkpicture.com/q/My-project_5.png" type="image"/></a>
+         <a className="md:w-3/6 hidden sm:block" href="https://www.linkpicture.com/view.php?img=LPic626d1054bd3081267736362"><img className="md:w-4/8 hidden sm:block" src="https://www.linkpicture.com/q/My-project-1_1.png" type="image"/></a>
+           {/* <a href="https://www.linkpicture.com/view.php?img=LPic626d07f439bfb143666443">
+             <img className="md:w-4/8 hidden sm:block" src="https://www.linkpicture.com/q/My-project_5.png" type="image"/></a> */}
         </main>
       </div>
     </>

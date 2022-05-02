@@ -20,7 +20,7 @@ const Card = () => {
         />
       </a>
       <div class="p-5">
-        <a href="https://luxury-snickerdoodle-336461.netlify.app/">
+        <a href="">
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             Apollo 24x7
           </h5>
@@ -28,6 +28,7 @@ const Card = () => {
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
           This is the e-Commerce website 
         </p>
+        
         <a
           href="https://github.com/Sravani0410/Apollo-24x7-clone"
           class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300"
@@ -46,7 +47,8 @@ const Card = () => {
             ></path>
           </svg>
         </a>
-        {/* <a
+        <div class="mt-2">
+        <a
           href="https://luxury-snickerdoodle-336461.netlify.app/"
           class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300"
         >
@@ -63,7 +65,9 @@ const Card = () => {
               clip-rule="evenodd"
             ></path>
           </svg>
-        </a> */}
+        </a>
+        </div>
+       
       </div>
     </motion.div>
   );

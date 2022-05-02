@@ -167,7 +167,13 @@ const Contact = () => {
         Made with
         <div className="text-red-500 px-2 text-2xl">&#10084;</div>
         by Sravani Sandhya Devi
+        
+       
       </div>
+      <div class="text-center">
+      Credit @ Aakash Kumar
+      </div>
+     
     </div>
   );
 };
