@@ -1,5 +1,7 @@
 import React, { useContext } from "react";
-import heroBg from "../assets/webdev.svg";
+import Resume from "../assets/resume.pdf";
+import CTA from "./CTA";
+import ME from "../assets/image.jpeg";
 import Typical from "react-typical";
 import { contactLinks } from "../constants";
 import { ThemeContext } from "../themeProvider";
@@ -56,8 +58,8 @@ const Home = () => {
             </p>
             <div className="flex md:justify-start ">
               {contactLinks.map((el) => (
-                <a
-                  href={el.link}
+                <a 
+                  href={el.link}  target="__blank"
                   className="mr-5 cursor-pointer mt-8 hover:scale-125"
                 >
                   <img alt="" src={el.url} />
@@ -65,13 +67,15 @@ const Home = () => {
                 </a>
               ))}
             </div>
+
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
               <div className="mt-3 sm:mt-0 cursor-pointer w-1/2">
+              {/* <CTA /> */}
                 {/* <Link to="../assets/resume.pdf" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-200 md:py-4 md:text-lg md:px-10" > */}
                 {/* <button  onClick={()=>{
                  window.location.href="https://drive.google.com/file/d/1ZH2y4rYnKED4YoXxSVzaQWjWkMi75Uxt/view?usp=sharing"
                 }}  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-200 md:py-4 md:text-lg md:px-10">Resume</button>  */}
-                 <a href="https://drive.google.com/file/d/1ZH2y4rYnKED4YoXxSVzaQWjWkMi75Uxt/view?usp=sharing"  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-200 md:py-4 md:text-lg md:px-10">Resume</a> 
+                 <a href="https://drive.google.com/file/d/1ZH2y4rYnKED4YoXxSVzaQWjWkMi75Uxt/view?usp=sharing"  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-200 md:py-4 md:text-lg md:px-10"  target="__blank">Resume</a> 
                 {/* </Link> */}
                 {/* <Button className="bg-custom-blue font-weight-bold shadow-sm border-0 resume-btn" onClick={() => window.open('/static/Bipin_mv_resume.pdf', '_blank')}>View Resume
                 </Button> */}
@@ -95,7 +99,8 @@ const Home = () => {
             alt=""
             className="md:w-3/6 hidden sm:block"
           /> */}
-          <a  className="md:w-2/6 hidden sm:block" href="https://www.linkpicture.com/view.php?img=LPic626f7f7e649ed2082224129"><img src="https://www.linkpicture.com/q/IMG_20220409_173912-modified.png" type="image"/></a>
+          {/* <img className="md:w-2/6  sm:block" src={ME} /> */}
+          <a  className="md:w-2/6  sm:block" href="https://www.linkpicture.com/view.php?img=LPic626f7f7e649ed2082224129"><img src="https://www.linkpicture.com/q/IMG_20220409_173912-modified.png" type="image"/></a>
           {/* <a href="https://www.linkpicture.com/view.php?img=LPic626d139e1d4691066984160"><img className="md:w-4/6 hidden sm:block" src="https://www.linkpicture.com/q/My-project_4.jpg" type="image"/></a> */}
          {/* <a className="md:w-3/6 hidden sm:block" href="https://www.linkpicture.com/view.php?img=LPic626d1054bd3081267736362"><img className="md:w-4/8 hidden sm:block" src="https://www.linkpicture.com/q/My-project-1_1.png" type="image"/></a> */}
            {/* <a href="https://www.linkpicture.com/view.php?img=LPic626d07f439bfb143666443">

@@ -14,23 +14,23 @@ const Contact = () => {
           : "bg-black pt-24 text-white md:h-screen"
       }
     >
-      <div className="max-w-7xl mx-auto x-4 sm:px-6 lg:px-8 px-4 ">
+      <div className="max-w-5xl mx-auto x-4 sm:px-6 lg:px-8 px-6 ">
         <h2 className="text-5xl font-bold px-4 md:px-0 text-center z-0">
           Contact
         </h2>
-        <div>
-          {/* <h4 className="mt-12 text-3xl font-semibold text-blue-500">
+        {/* <div>
+          <h4 className="mt-12 text-3xl font-semibold text-blue-500">
             Connect with me
-          </h4> */}
-          {/* <p className="text-gray-500 text-xl">
+          </h4>
+          <p className="text-gray-500 text-xl">
             If you want to know more about me or my work, or if you would just
             <br />
             like to say hello, send me a message. I'd love to hear from you.
-          </p> */}
-        </div>
+          </p>
+        </div> */}
         <div >
-          <div >
-            {/* <form>
+          {/* <div >
+             <form>
               <div class="my-6">
                 <label
                   for="name"
@@ -43,7 +43,7 @@ const Contact = () => {
                   Name
                 </label>
                 <input
-                  type="email"
+                  type="text"
                   id="name"
                   class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                   placeholder="Enter your name"
@@ -89,22 +89,22 @@ const Contact = () => {
               </div>
               <div className="flex justify-between ">
                 <div className="underline">
-                  <a href="mailto:aakash.sh858791@gmail.com">
+                  <a href="mailto:sandhyapyla.8@gmail.com">
                     Send me email directly
                   </a>
                 </div>
                 <button className="bg-indigo-500 text-white px-4 py-2 w-40 rounded-md hover:bg-indigo-400">
-                  <a href="mailto:aakash.sh858791@gmail.com">Submit</a>
+                  <a href="mailto:sandhyapyla.8@gmail.com">Submit</a>
                 </button>
               </div>
-            </form> */}
-          </div>
-          <div className="w-full md:items-center  mt-10 md:mt-6">
-            <div className="w-full flex justify-around md:items-center  mt-12 md:mt-6" >
-              <div>
+            </form> 
+          </div> */}
+          <div className="w-full flex justify-between md:items-center  mt-1 md:mt-0">
+            <div className="w-full  md:items-center  mt-12 md:mt-0" >
+              <div className="mb-4">
               <h1 className="text-3xl font-bold">Phone</h1>
             <a
-              href="hello"
+              
               className="mb-4 mt-6 font-semibold text-blue-700 "
             >
               +91 9652883841
@@ -117,20 +117,20 @@ const Contact = () => {
             >
               +91 9652883841
             </a> */}
-            <div>
+            <div className="mb-4">
             <h1 className="text-3xl font-bold">Email</h1>
             <a
-              href="hello"
+              href="mailto:sandhyapyla.8@gmail.com"
               className="mb-12 mt-4 font-semibold text-blue-700 "
             >
               sandhyapyla.8@gmail.com
             </a>
             </div>
            
-           <div>
+           <div className="mb-4">
               <h1 className="text-3xl  font-bold">Address</h1>
             <a
-              href="hello"
+             
               className="mt-4  mb-12 md:text-left font-semibold text-blue-700 "
             >
               Vishakaptanam, Andhra Pradesh
@@ -141,12 +141,12 @@ const Contact = () => {
            
             </div>
           
-            {/* <h1 className="text-3xl  font-bold">Social</h1> */}
-            <h1 className="text-3xl font-bold px-4 md:px-0 text-center z-0">Social</h1>
-            <ul className=" flex justify-around md:items-center">
+          <div className="w-full  md:items-center  mt-12 md:mt-0">
+          <h1 className="text-3xl font-bold px-4 md:px-0 text-center z-0">Social</h1>
+            <ul className=" md:items-center">
               {contactLinks.map((el) => (
                 <a
-                  href={el.link}
+                  href={el.link}  target="__blank"
                   className="md:ml-6 md:mr-0 mr-6 cursor-pointer mt-4 hover:scale-125 flex flex-col justify-center items-center"
                 >
                   <img alt="" src={el.url} />
@@ -154,6 +154,9 @@ const Contact = () => {
                 </a>
               ))}
             </ul>
+          </div>
+            {/* <h1 className="text-3xl  font-bold">Social</h1> */}
+            
           </div>
         </div>
       </div>

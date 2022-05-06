@@ -30,7 +30,7 @@ const Card3 = () => {
         This clone is translate from any language
         </p>
         <a
-          href="https://github.com/Sravani0410/translate-app"
+          href="https://github.com/Sravani0410/translate-app"  target="__blank"
           class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300"
         >
          Source Code
@@ -49,7 +49,7 @@ const Card3 = () => {
         </a>
         <div class="mt-2">
         <a
-          href="https://translate-orpin.vercel.app/"
+          href="https://translate-orpin.vercel.app/"  target="__blank"
           class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300"
         >
          View
