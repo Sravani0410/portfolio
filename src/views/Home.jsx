@@ -1,12 +1,12 @@
 import React, { useContext } from "react";
-import Resume from "../assets/Resume.pdf";
-import CTA from "./CTA";
-import ME from "../assets/image.jpeg";
+// import Resume from "../assets/Resume.pdf";
+// import CTA from "./CTA";
+// import ME from "../assets/image.jpeg";
 import Typical from "react-typical";
 import { contactLinks } from "../constants";
 import { ThemeContext } from "../themeProvider";
 import { motion } from "framer-motion";
-import { Link } from "react-scroll";
+//import { Link } from "react-scroll";
 import cloud from "../assets/cloudBg.png";
 import cloudDark from "../assets/cloudDark.png";
 
