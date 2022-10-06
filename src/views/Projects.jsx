@@ -4,6 +4,7 @@ import Card1 from "../components/Card1";
 import Card2 from "../components/Card2";
 import Card3 from "../components/Card3";
 import Card4 from "../components/Card4";
+import Card5 from "../components/Cart5";
 import { ThemeContext } from "../themeProvider";
 
 const Projects = () => {
@@ -28,6 +29,7 @@ const Projects = () => {
           <Card2/>
           <Card3/>
           <Card4/>
+          <Card5/>
           {/* <Card />
           <Card />
           <Card /> */}
