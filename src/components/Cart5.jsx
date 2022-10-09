@@ -16,6 +16,7 @@ const  Card5 = () => {
         <img
           class="rounded-t-lg w-full"
           src="https://www.linkpicture.com/q/Bio-Generator.png"
+          
           alt=""
         />
       </a>
