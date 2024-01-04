@@ -15,7 +15,7 @@ const  Card5 = () => {
       <a href="hello">
         <img
           class="rounded-t-lg w-full"
-          src="https://i.ibb.co/HdJqsvf/Bio-Generator.png"
+          // src="https://i.ibb.co/HdJqsvf/Bio-Generator.png"
           alt=""
         />
       </a>

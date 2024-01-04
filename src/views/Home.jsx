@@ -75,7 +75,7 @@ const Home = () => {
                 {/* <button  onClick={()=>{
                  window.location.href="https://drive.google.com/file/d/1ZH2y4rYnKED4YoXxSVzaQWjWkMi75Uxt/view?usp=sharing"
                 }}  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-200 md:py-4 md:text-lg md:px-10">Resume</button>  */}
-                 <a href="https://drive.google.com/file/d/1G1_HAdTV7FdLAd7__MpN8gaIr308E9uJ/view?usp=sharing"  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-200 md:py-4 md:text-lg md:px-10"  target="__blank">Resume</a> 
+                 <a href="https://drive.google.com/file/d/1IyW1r-bSB7xYwHkS5rn66IYiaV5fyoF8/view?usp=sharing"  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-200 md:py-4 md:text-lg md:px-10"  target="__blank">Resume</a> 
                 {/* </Link> */}
                 {/* <Button className="bg-custom-blue font-weight-bold shadow-sm border-0 resume-btn" onClick={() => window.open('/static/Bipin_mv_resume.pdf', '_blank')}>View Resume
                 </Button> */}

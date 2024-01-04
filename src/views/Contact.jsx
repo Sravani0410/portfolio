@@ -173,9 +173,9 @@ const Contact = () => {
         
        
       </div>
-      <div class="text-center">
+      {/* <div class="text-center">
       Credit @ Aakash Kumar
-      </div>
+      </div> */}
      
     </div>
   );

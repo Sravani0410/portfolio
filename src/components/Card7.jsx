@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const Card2 = () => {
+const  Card5 = () => {
   return (
     <motion.div
       initial={"hidden"}
@@ -15,22 +15,22 @@ const Card2 = () => {
       <a href="hello">
         <img
           class="rounded-t-lg w-full"
-          src="https://ibb.co/rvby9Nmhttps://ibb.co/0nyBckV"
+          src="https://ibb.co/TY2qpds"
           alt=""
         />
       </a>
       <div class="p-5">
         <a href="">
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-           Weather Clone
+         Harbour Bites App
           </h5>
         </a>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
          
-        This clone is weather report. Here we can weather with location with 7 days forecast
+        It create Qr-code generate application to increase growth of restaurant.
         </p>
         <a
-          href="https://github.com/Sravani0410/weather-app"  target="__blank"
+          href=""  target="__blank"
           class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300"
         >
          Source Code
@@ -48,8 +48,8 @@ const Card2 = () => {
           </svg>
         </a>
         <div class="mt-2">
-        <a 
-          href="https://weather-neon-seven.vercel.app/"  target="__blank"
+        <a
+          href="http://restaurant-frontend.s3-website.ap-south-1.amazonaws.com/"  target="__blank"
           class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300"
         >
          View
@@ -72,4 +72,4 @@ const Card2 = () => {
   );
 };
 
-export default Card2;
+export default Card5;
